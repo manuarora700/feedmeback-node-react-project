@@ -9,7 +9,7 @@ const app = express();
 
 // route handler -- associate with the given route
 app.get('/', (req, res) => {
-	res.send({ hi: 'there' });
+	res.send({ bye: 'Buddy' });
 });
 
 // Run on localhost:5000/
